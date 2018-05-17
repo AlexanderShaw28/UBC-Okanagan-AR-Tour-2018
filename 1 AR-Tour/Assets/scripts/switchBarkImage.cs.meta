@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: e6d130f78ee76fa4894057b281c04a83
+timeCreated: 1511906627
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - doggo1: {fileID: 21300000, guid: 9cf5912b62c260f46b08f58ceb37b73e, type: 3}
+  - doggo2: {fileID: 21300000, guid: 65f0db20269c888439afacf723e6b7da, type: 3}
+  - doggo3: {fileID: 21300000, guid: 1ce842e38d5440442996b55f930488d6, type: 3}
+  - doggo4: {fileID: 21300000, guid: 5f2bd5fe42e272b4683a1cc3922834c9, type: 3}
+  - doggo5: {fileID: 21300000, guid: 86bab10a6807dd844888fff57508ce45, type: 3}
+  - doggo6: {fileID: 21300000, guid: f10038b261e8ae94784603283b4a10ce, type: 3}
+  - doggo7: {fileID: 21300000, guid: 9fef47ba97355ac45b0fcf23f92bb58a, type: 3}
+  - doggo8: {fileID: 21300000, guid: e54d274d97497a24e8ed3db8969b450b, type: 3}
+  - Main: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
