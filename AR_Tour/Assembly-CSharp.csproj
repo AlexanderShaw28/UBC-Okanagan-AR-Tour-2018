@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{DC783969-9C51-8BAC-CCA3-B57518F51E6B}</ProjectGuid>
+    <ProjectGuid>{0A32079D-F295-04EA-7981-7AF0C1D2532E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -535,16 +535,16 @@
  <HintPath>E:/Programs/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Newtonsoft.Json">
- <HintPath>E:/Alex/Documents/GitHub/UBC-Okanagan-AR-Tour-2018/1 AR-Tour/Assets/LightShaft/YoutubeAPI/UnityPackages/JsonNet/Newtonsoft.Json.dll</HintPath>
+ <HintPath>E:/Alex/Documents/GitHub/UBC-Okanagan-AR-Tour-2018/AR_Tour/Assets/LightShaft/YoutubeAPI/UnityPackages/JsonNet/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="Mapbox.Json">
- <HintPath>E:/Alex/Documents/GitHub/UBC-Okanagan-AR-Tour-2018/1 AR-Tour/Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.Json/Net35/Mapbox.Json.dll</HintPath>
+ <HintPath>E:/Alex/Documents/GitHub/UBC-Okanagan-AR-Tour-2018/AR_Tour/Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.Json/Net35/Mapbox.Json.dll</HintPath>
  </Reference>
  <Reference Include="Vuforia.UnityExtensions.Editor">
- <HintPath>E:/Alex/Documents/GitHub/UBC-Okanagan-AR-Tour-2018/1 AR-Tour/Assets/Vuforia/Editor/Scripts/Vuforia.UnityExtensions.Editor.dll</HintPath>
+ <HintPath>E:/Alex/Documents/GitHub/UBC-Okanagan-AR-Tour-2018/AR_Tour/Assets/Vuforia/Editor/Scripts/Vuforia.UnityExtensions.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Vuforia.UnityExtensions">
- <HintPath>E:/Alex/Documents/GitHub/UBC-Okanagan-AR-Tour-2018/1 AR-Tour/Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.dll</HintPath>
+ <HintPath>E:/Alex/Documents/GitHub/UBC-Okanagan-AR-Tour-2018/AR_Tour/Assets/Vuforia/Scripts/Internal/Vuforia.UnityExtensions.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>C:/Users/alexa/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>

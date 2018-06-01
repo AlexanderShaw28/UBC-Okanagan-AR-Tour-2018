@@ -10,20 +10,24 @@ public class MenuButtonScript : MonoBehaviour {
     public GameObject CloseButton;
 
 	public Animator AniMenu;
-	
+
 	// Use this for initialization
 
+public void CloseLegend(GameObject a){
+
+	a.SetActive(false);
+}
 
 	public void ClickOnMe(){
 		Menu.SetActive (true);
-		
+
 
 
 		AniMenu = Menu.GetComponent<Animator> ();
-		
+
 
 		AniMenu.Play ("slide_out");
-		
+
 
         CloseButton.SetActive(true);
 
@@ -55,14 +59,14 @@ public class MenuButtonScript : MonoBehaviour {
 
 
 		AniMenu = Menu.GetComponent<Animator> ();
-		
+
 
 		AniMenu.Play ("ReverseSlideOut");
-		
+
 
         CloseButton.SetActive(false);
-	
-        
+
+
 		//Menu.SetActive (false);
 		//Quad.SetActive (false);
 
@@ -73,11 +77,11 @@ public class MenuButtonScript : MonoBehaviour {
 
 
 	void Start () {
-		
+
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
-		
+
 	}
 }

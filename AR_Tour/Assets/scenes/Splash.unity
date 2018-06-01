@@ -275,8 +275,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8, y: -12}
-  m_SizeDelta: {x: 1218.6, y: 369.6}
+  m_AnchoredPosition: {x: -0.0046854, y: 0.00047493}
+  m_SizeDelta: {x: 1406.8, y: 376.09}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &379295605
 MonoBehaviour:
@@ -304,14 +304,14 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 300
-    m_Alignment: 1
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Before you begin, make sure your device is connected to "ubc visitor" WiFi,
-    or a stable internet connection.
+  m_Text: Make sure your device is connected to "ubc visitor" WiFi, or a stable internet
+    connection.
 --- !u!222 &379295606
 CanvasRenderer:
   m_ObjectHideFlags: 0
