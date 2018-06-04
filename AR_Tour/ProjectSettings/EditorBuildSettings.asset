@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/scenes/Splash.unity
+    guid: afb5e0624375e0442b005c9353accb2e
+  - enabled: 1
+    path: Assets/scenes/Tour Map.unity
+    guid: daea383cc004f9546a1eb6dfec59f258
+  - enabled: 0
+    path: Assets/scenes/Information.unity
+    guid: a3f84af7acf84be4ea44d9c72b779fa3
+  - enabled: 1
+    path: Assets/scenes/simpleAr.unity
+    guid: 5073fcd3046e3c14394b51f2883d78a1
+  - enabled: 0
+    path: Assets/scenes/FullScreenPlayer.unity
+    guid: db467aeaa61b268438638d2f8ea01814
+  - enabled: 1
+    path: Assets/scenes/MicroBioAr.unity
+    guid: c58a69f176f01ec41b4d7f5066801cbc
+  - enabled: 1
+    path: Assets/scenes/ChemAr.unity
+    guid: e0ea4403a3f5cc340930e1850945ad20
+  - enabled: 1
+    path: Assets/scenes/PsychAr.unity
+    guid: fe7a268a4563b7545884d3b14408d46d
+  - enabled: 1
+    path: Assets/scenes/ComputerScienceAr.unity
+    guid: 2b74821beba0f064bb4b8cb528ffe504
+  - enabled: 1
+    path: Assets/scenes/360VideoPlayerBark.unity
+    guid: e2cecd107b74b1f4cad8fc14d0d2796c
+  - enabled: 1
+    path: Assets/scenes/Play Video.unity
+    guid: e4c9c07137823bc42bc6a85fd7ee3643
