@@ -13,6 +13,13 @@ public class MenuButtonScript : MonoBehaviour {
 
 	// Use this for initialization
 
+public void OpenLegend(GameObject a){
+
+		Menu.SetActive(false);
+		a.SetActive(true);
+
+
+}
 public void CloseLegend(GameObject a){
 
 	a.SetActive(false);

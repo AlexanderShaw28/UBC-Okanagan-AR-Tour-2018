@@ -8956,7 +8956,7 @@ GameObject:
   - component: {fileID: 371457058}
   - component: {fileID: 371457057}
   m_Layer: 5
-  m_Name: Tour Options
+  m_Name: Map Legend
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9020,7 +9020,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 0}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 629015606}
+        m_MethodName: OpenLegend
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1903115297}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!222 &371457058
@@ -9260,8 +9271,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 41, y: -101}
-  m_SizeDelta: {x: 497.1, y: 205.7}
+  m_AnchoredPosition: {x: 41, y: -105.8}
+  m_SizeDelta: {x: 497.1, y: 225.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &393518740
 MonoBehaviour:
@@ -9295,7 +9306,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: A Point of Interest that is enhanced with AR or 360 video
+  m_Text: Point of Interest that is enhanced with AR or 360 video
 --- !u!222 &393518741
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12152,7 +12163,7 @@ RectTransform:
   m_LocalScale: {x: 0.334866, y: 0.33486617, z: 0.33486617}
   m_Children: []
   m_Father: {fileID: 1903115298}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -16916,7 +16927,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &703779227
 Transform:
   m_ObjectHideFlags: 0
@@ -25558,8 +25569,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.9, y: 119}
-  m_SizeDelta: {x: 340.9, y: 100}
+  m_AnchoredPosition: {x: 0.83334064, y: 119}
+  m_SizeDelta: {x: 338.77, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1202804150
 MonoBehaviour:
@@ -26565,7 +26576,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1248566262
 Transform:
   m_ObjectHideFlags: 0
@@ -31220,7 +31231,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -4.2, y: -0.36514282}
+  m_AnchoredPosition: {x: -6, y: -0.36514282}
   m_SizeDelta: {x: 276.01, y: 73.41}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1575671209
@@ -31255,7 +31266,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Tour Options
+  m_Text: 'Map Legend
+
+'
 --- !u!222 &1575671210
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -37330,8 +37343,8 @@ Transform:
   - {fileID: 1202804149}
   - {fileID: 354435272}
   - {fileID: 1194234653}
-  - {fileID: 519474991}
   - {fileID: 2040659530}
+  - {fileID: 519474991}
   - {fileID: 393518739}
   m_Father: {fileID: 1595637615}
   m_RootOrder: 2
@@ -39890,12 +39903,12 @@ RectTransform:
   m_LocalScale: {x: 0.45704597, y: 0.45704606, z: 0.45704606}
   m_Children: []
   m_Father: {fileID: 1903115298}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 11.8, y: 0}
-  m_SizeDelta: {x: 408.2, y: 195}
+  m_AnchoredPosition: {x: 42, y: 0}
+  m_SizeDelta: {x: 540.4, y: 195}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2040659531
 MonoBehaviour:
@@ -39927,9 +39940,9 @@ MonoBehaviour:
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 1
+    m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: A standard Point of Interest
+  m_Text: Standard Point of Interest
 --- !u!222 &2040659532
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -40672,7 +40685,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -23.3, y: -0.36514282}
+  m_AnchoredPosition: {x: -22, y: -0.36514282}
   m_SizeDelta: {x: 276.01, y: 73.41}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2102528319

@@ -2,7 +2,6 @@ Android
 SceneListBegin?
 Assets/scenes/Splash.unity
 Assets/scenes/Tour Map.unity
-Assets/scenes/Information.unity
 Assets/scenes/simpleAr.unity
 Assets/scenes/MicroBioAr.unity
 Assets/scenes/ChemAr.unity

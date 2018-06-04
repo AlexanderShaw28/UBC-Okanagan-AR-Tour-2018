@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/scenes/Tour Map.unity
     guid: daea383cc004f9546a1eb6dfec59f258
-  - enabled: 1
+  - enabled: 0
     path: Assets/scenes/Information.unity
     guid: a3f84af7acf84be4ea44d9c72b779fa3
   - enabled: 1
@@ -20,16 +20,16 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/scenes/FullScreenPlayer.unity
     guid: db467aeaa61b268438638d2f8ea01814
-  - enabled: 0
+  - enabled: 1
     path: Assets/scenes/MicroBioAr.unity
     guid: c58a69f176f01ec41b4d7f5066801cbc
-  - enabled: 0
+  - enabled: 1
     path: Assets/scenes/ChemAr.unity
     guid: e0ea4403a3f5cc340930e1850945ad20
-  - enabled: 0
+  - enabled: 1
     path: Assets/scenes/PsychAr.unity
     guid: fe7a268a4563b7545884d3b14408d46d
-  - enabled: 0
+  - enabled: 1
     path: Assets/scenes/ComputerScienceAr.unity
     guid: 2b74821beba0f064bb4b8cb528ffe504
   - enabled: 1

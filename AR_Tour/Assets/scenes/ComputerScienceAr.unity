@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -1487,7 +1487,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1763531587}
         m_MethodName: SwitchScene
         m_Mode: 5
         m_Arguments:
@@ -1966,6 +1966,7 @@ MonoBehaviour:
   doggo6: {fileID: 21300000, guid: 061ab877b58e53a4dbda1dfb0878d192, type: 3}
   doggo7: {fileID: 21300000, guid: fb39c4eccabeb7143b1727e77186cef8, type: 3}
   doggo8: {fileID: 21300000, guid: 04848300edfa2f642b0d2991bd35e7ac, type: 3}
+  doggo9: {fileID: 0}
   Main: {fileID: 593044573}
 --- !u!114 &593044575
 MonoBehaviour:
@@ -3658,7 +3659,7 @@ Prefab:
   m_IsPrefabParent: 0
 --- !u!4 &1390671486 stripped
 Transform:
-  m_PrefabParentObject: {fileID: 400002, guid: d1a624ce86cf52a47ae7aa97ed912a4b, type: 3}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 1390671485}
 --- !u!1 &1403012982
 GameObject:
@@ -4358,7 +4359,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1763531586}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57190ff9198ace14ebd114f7b5f094b8, type: 3}
+  m_Script: {fileID: 11500000, guid: dd19de6fe6d9e4c49b944cdeeddd72d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1763531588
